@@ -1,0 +1,227 @@
+/* YOUR CUSTOM STYLES */
+
+/* TEMPLATE STYLES */
+  .login {
+      background: url("../../assets/images/login-material.png")no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+  .backlogin{
+    height: 100%;
+    margin-top: 50px;
+    background-color: rgba(300,300,300,0.85);
+  }
+/* TEMPLATE STYLES */
+
+html,
+body,
+.viewer {
+    height: 100%;
+}
+
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+.scrolling-navbar {
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+footer.page-footer {
+    background-color: #1C2331;
+    margin-top: -1px;
+}
+
+@media only screen and (max-width: 768px) {
+    .viewer{
+      height: 1300px;
+    }
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+
+/*Call to action*/
+
+.flex-center {
+    color: #fff;
+}
+
+.viewer {
+    background: url("../images/88.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*Main layout*/
+
+main,
+footer {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width: 992px) {
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    main {
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main-wrapper {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    main {
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .main-wrapper {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    main {
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .main-wrapper {
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+}
+
+
+/*Extra layout*/
+
+.section-title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+/*********************
+SideNav
+**********************/
+.side-nav {
+  background-color: #1C2331;
+}
+
+.side-nav .logo-wrapper {
+  background: url("../images/img.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.side-nav li {
+  background-color: #1C2331;
+}
+
+.side-nav li:hover, .side-nav li.active {
+  background-color: #2d384e;
+}
+
+.side-nav p {
+  color: #fff;
+}
+
+.side-nav .collapsible a {
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.side-nav .collapsible a:active {
+  background-color: #2d384e;
+}
+
+.side-nav .collapsible a.active {
+  background-color: #2d384e;
+}
+
+.side-nav .social {
+  border-top: 1px solid #2D384E;
+  border-bottom: 1px solid #2D384E;
+}
+
+.side-nav .social a {
+  color: #fff;
+}
+
+/*********************
+  TEMPLATE COLORS
+**********************/
+.pt-color {
+  background-color: #45526E !important;
+}
+
+.st-color {
+  background-color: #1C2331 !important;
+}
+
+.et-color {
+  background-color: #3F729B !important;
+}
+
+.btn-ptc {
+  background-color: #45526E !important;
+}
+
+.btn-ptc:hover {
+  background-color: #59698d !important;
+}
+
+.btn-ptc:focus {
+  background-color: #59698d !important;
+}
+
+.btn-stc {
+  background-color: #1C2331 !important;
+}
+
+.btn-stc:hover {
+  background-color: #2f3a51 !important;
+}
+
+.btn-stc:focus {
+  background-color: #2f3a51 !important;
+}
+
+/*Extra layout*/
+
+.section-title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.widget-wrapper {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 2rem;
+}
